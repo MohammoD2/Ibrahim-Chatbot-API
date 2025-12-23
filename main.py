@@ -29,7 +29,7 @@ app = FastAPI(title="AllOfTech AI Chatbot API")
 origins = [
     "http://localhost:3000",  # for local testing
     "http://127.0.0.1:5500",  # optional
-    "https://www.alloftech.site"  # production domain
+    "https://mohammod2.github.io/Protfolio/"  # production domain
 ]
 
 app.add_middleware(
