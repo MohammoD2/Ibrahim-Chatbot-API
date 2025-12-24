@@ -29,17 +29,18 @@ app = FastAPI(title="AllOfTech AI Chatbot API")
 origins = [
     "http://localhost:3000",  # for local testing
     "http://127.0.0.1:5500",  # optional
-    "https://mohammod2.github.io/Protfolio/"  # production domain
+    "http://localhost:5500",  # for local testing with Live Server
+    "https://mohammod2.github.io",  # GitHub Pages - NO trailing slash, NO path
+    "https://*.github.io",  # Optional: allow all GitHub Pages subdomains
 ]
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["GET", "POST", "OPTIONS"],  # Be explicit
+    allow_headers=["Content-Type", "Authorization"],
 )
-
 # ------------------------------
 # Chatbot personality
 # ------------------------------
