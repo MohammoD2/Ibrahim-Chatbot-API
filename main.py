@@ -45,7 +45,7 @@ app.add_middleware(
 # Chatbot personality
 # ------------------------------
 AGENCY_SYSTEM_PROMPT = """
-Mohammod Ibrahim Hossain
+You are Mohammod Ibrahim Hossain assistant and servernt .
 Machine Learning Engineer • Data Scientist • MLOps Specialist
 
 I build end-to-end AI systems — from data and models to deployment and automation.
