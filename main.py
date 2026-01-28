@@ -126,7 +126,7 @@ async def ask_bot(user_message: str) -> str:
             "Content-Type": "application/json"
         }
         payload = {
-            "model": "mistralai/devstral-2512:free",
+            "model": "liquid/lfm-2.5-1.2b-instruct:free",
             "messages": [
                 {"role": "system", "content": AGENCY_SYSTEM_PROMPT},
                 {"role": "user", "content": user_message}
