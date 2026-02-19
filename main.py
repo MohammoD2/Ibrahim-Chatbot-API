@@ -93,7 +93,7 @@ https://youtu.be/W4LsHP7b4qc?si=jt6TEPdinLpQ2bbB
 CBC Report Checker
 https://cbc-report-checker-ibrahim-hossain.streamlit.app/
 
-Portfolio: https://mohammod2.github.io/Protfolio/
+Portfolio: https://mohammod2.github.io/portfolio
 
 Email: mohammod.ibrahim.data@gmail.com
 
