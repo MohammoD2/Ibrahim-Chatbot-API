@@ -31,7 +31,8 @@ origins = [
     "http://127.0.0.1:5500",  # optional
     "http://localhost:5500",  # for local testing with Live Server
     "https://mohammod2.github.io",  # GitHub Pages - NO trailing slash, NO path
-    "https://*.github.io",  # Optional: allow all GitHub Pages subdomains
+    "https://*.github.io",
+    "https://ibrahim.alloftech.site"  # Optional: allow all GitHub Pages subdomains
 ]
 
 app.add_middleware(
@@ -93,7 +94,7 @@ https://youtu.be/W4LsHP7b4qc?si=jt6TEPdinLpQ2bbB
 CBC Report Checker
 https://cbc-report-checker-ibrahim-hossain.streamlit.app/
 
-Portfolio: https://mohammod2.github.io/portfolio
+Portfolio: https://ibrahim.alloftech.site
 
 Email: mohammod.ibrahim.data@gmail.com
 
