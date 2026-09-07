@@ -1,5 +1,5 @@
 fastapi
 uvicorn
-requests
+groq
 pydantic
 python-dotenv
